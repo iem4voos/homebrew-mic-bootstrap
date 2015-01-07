@@ -1,0 +1,87 @@
+# cask 
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/m aster/#install)"
+# 
+#  this file can be executed 
+#  brew bundle Caskfile
+#
+# brew update
+# brew doctor
+# brew install 
+# 
+# brew cleanup
+# brew options git
+# brew install c  
+# brew cask install
+# brew cask cleanup
+# 
+### ----------------
+
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#  . $(brew --prefix)/etc/bash_completion
+#fi
+install bash-completion
+
+install caskroom/cask/brew-cask
+
+# --- essential tools ---
+cask install trim-enabler
+cask install menumeters
+cask install apptrap
+
+# --- text editors ---
+cask install mou
+cask install sublime-text
+# ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+# --- quicklook plugins ---
+cask install qlcolorcode
+cask install qlstephen 
+cask install qlmarkdown 
+cask install quicklook-json 
+cask install qlprettypatch 
+cask install quicklook-csv 
+cask install betterzipql 
+cask install qlimagesize 
+cask install webpquicklook 
+cask install suspicious-package
+
+# --- multimedia stuff ---
+cask install vlc
+cask install transmission
+cask install flash-player
+cask install google-chrome
+cask install google-drive
+
+# --- Developper ---
+install node
+install --with-java --universal subversion 
+install --with-brewed-svn git
+
+
+cask install java
+
+cask install android-studio
+cask install eclipse-java
+
+cask install sourcetree
+cask install dash
+cask install versions
+
+cask install virtualbox
+cask install genymotion
+cask install cyberduck
+
+# ---
+
+install ffmpeg --with-fdk-aac --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265
+
+# ----- 
+#intel-haxm
+#subl
+#cuda
+#gopro-studio
+#adobe-dng-converter
+#listleSnitch
+#pixelmator
+#sequel pro
+
