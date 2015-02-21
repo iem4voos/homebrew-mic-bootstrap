@@ -53,12 +53,11 @@ cask install google-chrome
 cask install google-drive
 
 # --- Developper ---
+cask install java
+
 install node
 install --with-java --universal subversion 
 install --with-brewed-svn git
-
-
-cask install java
 
 cask install android-studio
 cask install eclipse-java
