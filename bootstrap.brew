@@ -24,7 +24,7 @@ install bash-completion
 install caskroom/cask/brew-cask
 
 # --- essential tools ---
-cask install trim-enabler
+#cask install trim-enabler
 cask install menumeters
 cask install apptrap
 
@@ -58,6 +58,7 @@ cask install java
 install node
 install --with-java --universal subversion 
 install --with-brewed-svn git
+install git-flow
 
 cask install android-studio
 cask install eclipse-java
